@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "metadata.schema.json",
+  "title": "Form Metadata Schema",
+  "description": "Form metadata schema.",
+  "properties": {
+    "pages": {
+      "type": "array",
+      "description": "Summary of the pages in the form.",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": ["_id", "name"]
+}
