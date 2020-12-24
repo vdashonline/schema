@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "form.schema.json",
+  "title": "Form Schema",
+  "description": "Form schema to create forms as a json files in vdash.",
+  "properties": {
+    "_id": {
+      "type": "string",
+      "description": "Object id in mongodb"
+    },
+    "name": {
+      "type": "string",
+      "description": "Friendly name of the form"
+    }
+  },
+  "required": ["_id", "name"]
+}

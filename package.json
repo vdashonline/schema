@@ -1,0 +1,13 @@
+{
+  "name": "schema",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vdashonline/schema.git",
+  "author": "Amin <choroomi@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git add . && git commit",
+    "pull": "git pull",
+    "push": "(git diff --quiet && git diff --staged --quiet || yarn commit) && git push origin"
+  }
+}
