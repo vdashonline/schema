@@ -17,5 +17,5 @@
       "description": "Form metadata"
     }
   },
-  "required": ["_id", "name"]
+  "required": ["_id", "name", "metadata"]
 }
