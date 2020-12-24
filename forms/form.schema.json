@@ -11,6 +11,10 @@
     "name": {
       "type": "string",
       "description": "Friendly name of the form"
+    },
+    "metadata": {
+      "$ref": "https://raw.githubusercontent.com/vdashonline/schema/main/forms/metadata.schema.json",
+      "description": "Form metadata"
     }
   },
   "required": ["_id", "name"]
