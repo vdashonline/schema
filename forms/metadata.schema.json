@@ -14,5 +14,5 @@
       "uniqueItems": true
     }
   },
-  "required": ["_id", "name"]
+  "required": ["pages"]
 }
